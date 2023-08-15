@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/* font reset
+---------------------------------------------------------- */
+body,html {
+	font:16px/1.231 'Noto Sans Japanese', sans-serif;
+    font:16px 'Noto Sans Japanese', sans-serif;
+	*font-size:small;*font:x-small;
+	width: 100%;
+	height: auto;
+    color:#000;
+    -webkit-text-size-adjust: none;
+	-ms-font-feature-settings: "normal";
+	font-weight: 400;
+}
+
+#wrapper{
+	width: 100%;
+    overflow:hidden;
+}
+a {
+	text-decoration: none;
+}
+a:hover{
+    text-decoration:none;
+}
+img {
+	vertical-align: top;
+}
+
+select,input,button,textarea {
+	font:99% arial,helvetica,clean,sans-serif;
+}
+
+table {
+	font-size:inherit;
+	font:100%;
+}
+
+pre,code,kbd,samp,tt {
+	font-family:monospace;
+	*font-size:108%;
+	line-height:100%;
+}
+
+#yui3-css-stamp.cssfonts {
+	display:none;
+}
+
+/**************************************
+ *  font size set pixels(px)
+***************************************/
+.fonts-10 {font-size:77%;}
+.fonts-11 {font-size:85%;}
+.fonts-12 {font-size:93%;}
+.fonts-13 {font-size:100%;}
+.fonts-14 {font-size:108%;}
+.fonts-15 {font-size:116%;}
+.fonts-16 {font-size:123.1%;}
+.fonts-17 {font-size:131%;}
+.fonts-18 {font-size:138.5%;}
+.fonts-19 {font-size:146.5%;}
+.fonts-20 {font-size:153.9%;}
+.fonts-21 {font-size:161.6%;}
+.fonts-22 {font-size:167%;}
+.fonts-23 {font-size:174%;}
+.fonts-24 {font-size:182%;}
+.fonts-25 {font-size:189%;}
+.fonts-26 {font-size:197%;}
+
+
+/* layout
+---------------------------------------------------------- */
+/* common */
+
+/***************************************
+ * clear fix
+****************************************/
+.clearfix:after{
+   content:".";
+   display:block;
+   height:0;
+   visibility:hidden;
+   clear:both;
+}
+.clearfix{
+   display:inline-block;
+   min-height:1%;  /* for IE 7 and MacIE5.5*/
+}
+/* Hides from IE-mac \*/
+*html .clearfix{height: 1%;}
+.clearfix{display: block;}
